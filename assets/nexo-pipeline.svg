@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 330" width="1280" height="330" role="img" aria-labelledby="t d">
+<title id="t">Como o NEXO funciona</title>
+<desc id="d">Fluxo do NEXO em 5 etapas: 01 Relatórios do PDV: Vendas e compras em .csv ou .xlsx, direto do sistema de caixa.; 02 Motor de ETL: Pandas + NumPy: leitura adaptativa, limpeza e mapeamento De-Para.; 03 Indicadores: Pressão de Estoque, Curva ABC (Pareto) e semáforos 5W2H.; 04 Parecer estratégico: IA (Claude) com fallback local + revisão da equipe NEXO.; 05 Portal + PDF: Dashboards Plotly, alertas em tempo real e PDF executivo.</desc>
+<defs><clipPath id="pr"><rect width="1280" height="330" rx="24"/></clipPath><linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#110A1C"/><stop offset="1" stop-color="#0A0711"/></linearGradient><pattern id="pgrid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#A855F7" stroke-opacity="0.07"/></pattern><linearGradient id="pline" x1="0" x2="1"><stop offset="0" stop-color="#A855F7" stop-opacity="0"/><stop offset="0.35" stop-color="#A855F7"/><stop offset="0.75" stop-color="#F97316"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/></linearGradient><radialGradient id="pg0"><stop offset="0" stop-color="#7C3AED" stop-opacity="0.22"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient></defs>
+<style>.flow{animation:flow 1.1s linear infinite}@keyframes flow{to{stroke-dashoffset:-18}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<g clip-path="url(#pr)"><rect width="1280" height="330" fill="url(#pbg)"/><rect width="1280" height="330" fill="url(#pgrid)"/><circle cx="640" cy="330" r="520" fill="url(#pg0)"/>
+<text x="36" y="50" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" letter-spacing="3" fill="#C28AFF">COMO FUNCIONA · DO RELATÓRIO BRUTO À DECISÃO</text>
+<text x="1244" y="50" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#F97316">5 ETAPAS</text>
+<rect x="36" y="74" width="221" height="222" rx="18" fill="#13111C" fill-opacity="0.92" stroke="#A855F7" stroke-opacity="0.28"/>
+<rect x="56" y="94" width="44" height="44" rx="12" fill="#A855F7" fill-opacity="0.13" stroke="#A855F7" stroke-opacity="0.35"/>
+<g transform="translate(66 104) scale(1)" fill="none" stroke="#C28AFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 18v-6"/><path d="m9.5 14.5 2.5-2.5 2.5 2.5"/></g>
+<text x="237" y="121" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#6E6A85">01</text>
+<text x="56" y="180" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F3F1F8">Relatórios do PDV</text>
+<text font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#A9A6BA"><tspan x="56" y="212">Vendas e compras em</tspan><tspan x="56" y="235">.csv ou .xlsx, direto</tspan><tspan x="56" y="258">do sistema de caixa.</tspan></text>
+<line class="flow" x1="262" y1="116" x2="274" y2="116" stroke="#A855F7" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round"/>
+<path d="M271 111l6 5-6 5" fill="none" stroke="#A855F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="283" y="74" width="221" height="222" rx="18" fill="#13111C" fill-opacity="0.92" stroke="#A855F7" stroke-opacity="0.28"/>
+<rect x="303" y="94" width="44" height="44" rx="12" fill="#A855F7" fill-opacity="0.13" stroke="#A855F7" stroke-opacity="0.35"/>
+<g transform="translate(313 104) scale(1)" fill="none" stroke="#C28AFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h18l-7 8.5V19l-4 2v-8.5z"/></g>
+<text x="484" y="121" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#6E6A85">02</text>
+<text x="303" y="180" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F3F1F8">Motor de ETL</text>
+<text font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#A9A6BA"><tspan x="303" y="212">Pandas + NumPy: leitura</tspan><tspan x="303" y="235">adaptativa, limpeza e</tspan><tspan x="303" y="258">mapeamento De-Para.</tspan></text>
+<line class="flow" x1="509" y1="116" x2="521" y2="116" stroke="#A855F7" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round"/>
+<path d="M518 111l6 5-6 5" fill="none" stroke="#A855F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="530" y="74" width="221" height="222" rx="18" fill="#13111C" fill-opacity="0.92" stroke="#F97316" stroke-opacity="0.55"/>
+<rect x="550" y="94" width="44" height="44" rx="12" fill="#F97316" fill-opacity="0.13" stroke="#F97316" stroke-opacity="0.35"/>
+<g transform="translate(560 104) scale(1)" fill="none" stroke="#F97316" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M6 17v-4"/><path d="M11 17V7"/><path d="M16 17v-7"/><path d="M21 17V4"/></g>
+<text x="731" y="121" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#F97316">03</text>
+<text x="550" y="180" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F3F1F8">Indicadores</text>
+<text font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#A9A6BA"><tspan x="550" y="212">Pressão de Estoque,</tspan><tspan x="550" y="235">Curva ABC (Pareto) e</tspan><tspan x="550" y="258">semáforos 5W2H.</tspan></text>
+<line class="flow" x1="756" y1="116" x2="768" y2="116" stroke="#A855F7" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round"/>
+<path d="M765 111l6 5-6 5" fill="none" stroke="#A855F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="777" y="74" width="221" height="222" rx="18" fill="#13111C" fill-opacity="0.92" stroke="#A855F7" stroke-opacity="0.28"/>
+<rect x="797" y="94" width="44" height="44" rx="12" fill="#A855F7" fill-opacity="0.13" stroke="#A855F7" stroke-opacity="0.35"/>
+<g transform="translate(807 104) scale(1)" fill="none" stroke="#C28AFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/><path d="M19 15l.8 1.9 1.9.8-1.9.8L19 20.4l-.8-1.9-1.9-.8 1.9-.8z"/><path d="M5 16l.6 1.4 1.4.6-1.4.6L5 20l-.6-1.4L3 18l1.4-.6z"/></g>
+<text x="978" y="121" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#6E6A85">04</text>
+<text x="797" y="180" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F3F1F8">Parecer estratégico</text>
+<text font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#A9A6BA"><tspan x="797" y="212">IA (Claude) com fallback</tspan><tspan x="797" y="235">local + revisão da</tspan><tspan x="797" y="258">equipe NEXO.</tspan></text>
+<line class="flow" x1="1003" y1="116" x2="1015" y2="116" stroke="#A855F7" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round"/>
+<path d="M1012 111l6 5-6 5" fill="none" stroke="#A855F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1024" y="74" width="221" height="222" rx="18" fill="#13111C" fill-opacity="0.92" stroke="#A855F7" stroke-opacity="0.28"/>
+<rect x="1044" y="94" width="44" height="44" rx="12" fill="#A855F7" fill-opacity="0.13" stroke="#A855F7" stroke-opacity="0.35"/>
+<g transform="translate(1054 104) scale(1)" fill="none" stroke="#C28AFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8"/><path d="M12 16v4"/><path d="m7 12 3-3 2.5 2 4-4"/></g>
+<text x="1225" y="121" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#6E6A85">05</text>
+<text x="1044" y="180" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F3F1F8">Portal + PDF</text>
+<text font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" fill="#A9A6BA"><tspan x="1044" y="212">Dashboards Plotly,</tspan><tspan x="1044" y="235">alertas em tempo real</tspan><tspan x="1044" y="258">e PDF executivo.</tspan></text>
+<rect x="0" y="328" width="1280" height="2" fill="url(#pline)"/></g><rect x="0.5" y="0.5" width="1279" height="329" rx="23.5" fill="none" stroke="#A855F7" stroke-opacity="0.22"/>
+</svg>
